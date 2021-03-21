@@ -26,10 +26,9 @@ def main():
          choice = input(">>> ").upper()
 print("Thank you.")
 
-def F(celsius):
-    return celsius * 9.0 / 5 + 32
-
-def C(fahrenheit):
+def F(fahrenheit):
     return (fahrenheit - 32) * (5 / 9)
 
+def C(celsius):
+    return celsius * 9.0 / 5 + 32
 main()
